@@ -21,6 +21,7 @@ var fiat = {
 
     stop: function() {
 		this.started = false;
+		alert("Engine closed!");
 	},
 
     drive: function() {
@@ -29,14 +30,19 @@ var fiat = {
 		// our code doesn't work!
 		//
 		if (this.started) {
-			alert("Zoom zoom!");
+			alert("Engine started. Zoom zoom!");
 		} else {
-			alert("You need to start the engine first.");
+			alert("You need to start the engine first. Start failed！！！");
 		}
 	}
+	
+	
 };
 
 fiat.drive();
+fiat.drive();
+fiat.drive();
+
 fiat.start();
 fiat.drive();
 fiat.stop();
