@@ -29,4 +29,15 @@ if(myarray[i] == undefined){
 属性名可以是任意字符串，但通常遵循变量命名规则
 注意：将包含空格的字符串用作属性名时，必须用引号将其括起。例如："on sale": true;
 
+第六章 DOM模型
 
+回调函数onload
+例:function init() {
+		var planet = document.getElementById("greenplanet");
+		planet.innerHTML = "Red Alert: hit by phaser fire!"; 
+	}
+	window.onload = init;
+
+setAttribute设置属性
+例: planet.setAttribute("class", "redtext");    
+方法要接受两个实参————要添加或修改的特性的名称和 要设置的特性值<=如果指定的特性不存在，将在元素钟创建它
