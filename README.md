@@ -41,3 +41,13 @@ if(myarray[i] == undefined){
 setAttribute设置属性
 例: planet.setAttribute("class", "redtext");    
 方法要接受两个实参————要添加或修改的特性的名称和 要设置的特性值<=如果指定的特性不存在，将在元素钟创建它
+
+DOM的一些其他功能
+从DOM中获取元素
+创建元素并将其加入到DOM中
+从DOM删除元素
+遍历DOM中的元素
+
+##要点
++ 在JS代码中，使用document对象来访问DOM
++ document对象包含可用来访问和修改DOM的属性和方法
